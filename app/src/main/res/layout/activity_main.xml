@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Firebase Information"
+    android:textSize="24dp"
+    android:textAlignment="center"
+    android:layout_marginTop="60dp"
+    />
+    <EditText
+        android:id="@+id/firstname"
+        android:hint="Enter Firstname"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id="@+id/lastname"
+        android:hint="Enter Lastname"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:hint="Enter Email"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/submitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="24dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <TextView
+        android:id="@+id/myfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name:"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/mylastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name:"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/showbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show  "
+        android:textSize="24dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "470095969321",
+    "project_id": "my-project-779d1",
+    "storage_bucket": "my-project-779d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470095969321:android:9ff8808b755f023f817038",
+        "android_client_info": {
+          "package_name": "com.example.shoopingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470095969321-1m1nl82nj14vlnb4uaddt15nt9j3rcgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQNbSE_p0N1QRBhpRdtugPb7_3XkMU4zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470095969321-1m1nl82nj14vlnb4uaddt15nt9j3rcgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
